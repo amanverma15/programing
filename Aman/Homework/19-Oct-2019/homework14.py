@@ -1,0 +1,6 @@
+a = input("Write an comma between every word: ")
+words = a.split(",")
+b = set(words)
+c = list(b)
+c.sort()
+print(c)
